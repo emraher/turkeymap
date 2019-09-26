@@ -1,10 +1,10 @@
 Type: Package
 Package: turkeymap
-Title: Provides city and district data for Turkey
+Title: Provides province and district data for Turkey
 Version: 0.1.0
 Author: Emrah Er
 Maintainer: Emrah Er <eer@eremrah.com>
-Description: Provides city and district data for
+Description: Provides province and district data for
     Turkey.
 License: MIT + file LICENSE
 Encoding: UTF-8

@@ -7,7 +7,8 @@
 
 <!-- badges: end -->
 
-The goal of turkeymap is to provide city and district data for Turkey.
+The goal of turkeymap is to provide province and district data for
+Turkey.
 
 ## Installation
 
@@ -15,6 +16,9 @@ You can install `turkeymap` from github with:
 
 ``` r
 devtools::install_github("emraher/turkeymap")
+
+tr_provinces <- turkeymap::provinces
+tr_districts <- turkeymap::districts
 ```
 
 # Shapefiles for Turkey
@@ -31,6 +35,47 @@ devtools::install_github("emraher/turkeymap")
     Payne](https://docs.google.com/spreadsheets/d/1utQRlrX3lJniBjWE3rNjLZeTRsbjH-zdjxNmXhhvO9Q/htmlview)
   - [Coğrafi Veri Servis
     Havuzu](https://cbs.csb.gov.tr/cografi-veri-servis-havuzu-i-5438)
+
+## GADM Download
+
+[`sptools`](https://github.com/epix-project/sptools) can download maps
+from GADM database. Install from GitHub using,
+
+``` r
+devtools::install_github("epix-project/sptools")
+```
+
+To download maps for Turkey run the following codes,
+
+``` r
+tr <- sptools::gadm("Turkey", "sf", 0, save = FALSE, intlib = FALSE)
+tr_province <- sptools::gadm("Turkey", "sf", 1, save = FALSE, intlib = FALSE)
+tr_district <- sptools::gadm("Turkey", "sf", 2, save = FALSE, intlib = FALSE)
+```
+
+### Turkey
+
+``` r
+plot(tr$geometry)
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
+
+### Turkey - Provinces
+
+``` r
+plot(tr_province$geometry)
+```
+
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+
+### Turkey - Districts
+
+``` r
+plot(tr_district$geometry)
+```
+
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
 
 # Amendments
 

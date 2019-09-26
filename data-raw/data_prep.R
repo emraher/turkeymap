@@ -1,6 +1,6 @@
-cities <- read.csv("data-raw/cities.csv")
+provinces <- read.csv("data-raw/provinces.csv")
 districts <- read.csv("data-raw/districts.csv")
 cvsh <- read.csv("data-raw/cvsh_links.csv")
-usethis::use_data(cities, overwrite = TRUE)
+usethis::use_data(provinces, overwrite = TRUE)
 usethis::use_data(districts, overwrite = TRUE)
 usethis::use_data(cvsh, overwrite = TRUE)
