@@ -21,7 +21,7 @@ tr_provinces <- turkeymap::provinces
 tr_districts <- turkeymap::districts
 ```
 
-# Shapefiles for Turkey
+# Shapefile Sources for Turkey
 
   - [European Environment
     Agency](https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/turkey-shapefile)
@@ -36,6 +36,16 @@ tr_districts <- turkeymap::districts
   - [Coğrafi Veri Servis
     Havuzu](https://cbs.csb.gov.tr/cografi-veri-servis-havuzu-i-5438)
 
+# GADM
+
+## Problems with GADM data
+
+GADM data has some wrong information. Some province and district names
+are either wrong or missing Turkish characters. **This must be fixed.**
+The problems are caused by some recent changes. For example, Merkez
+district in Antalya was split into 5 different districts. GADM has not
+updated their files to reflect these changes.
+
 ## GADM Download
 
 [`sptools`](https://github.com/epix-project/sptools) can download maps
@@ -45,41 +55,25 @@ from GADM database. Install from GitHub using,
 devtools::install_github("epix-project/sptools")
 ```
 
-To download maps for Turkey run the following codes,
+To download maps for Turkey and to plot them run the following codes,
 
 ``` r
 tr <- sptools::gadm("Turkey", "sf", 0, save = FALSE, intlib = FALSE)
 tr_province <- sptools::gadm("Turkey", "sf", 1, save = FALSE, intlib = FALSE)
 tr_district <- sptools::gadm("Turkey", "sf", 2, save = FALSE, intlib = FALSE)
+
+# Plot maps
+
+plot(tr$geometry) # Turkey
+
+plot(tr_province$geometry) # Turkey - Provinces
+
+plot(tr_district$geometry) # Turkey - Districts
 ```
-
-### Turkey
-
-``` r
-plot(tr$geometry)
-```
-
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
-
-### Turkey - Provinces
-
-``` r
-plot(tr_province$geometry)
-```
-
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
-
-### Turkey - Districts
-
-``` r
-plot(tr_district$geometry)
-```
-
-<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
 
 # Amendments
 
-## 1990s
+### 1990s
 
   - [İKİ İL İLE BEŞ İLÇE
     KURULMASI](http://www.mevzuat.gov.tr/MevzuatMetin/1.5.3647.pdf)
@@ -131,7 +125,7 @@ plot(tr_district$geometry)
       - Yayımlandığı R. Gazete Tarih : 09/12/1999
       - Yayımlandığı R. Gazete Sayı : 23901
 
-## 2000s
+### 2000s
 
   - [BÜYÜKŞEHİR BELEDİYESİ SINIRLARI İÇERİSİNDE İLÇE KURULMASI VE BAZI
     KANUNLARDA DEĞİŞİKLİK YAPILMASI HAKKINDA
