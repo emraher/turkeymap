@@ -1,0 +1,71 @@
+ServiceName,DataOwner,ServiceType,SummaryInfo,ServiceURL
+IDARI SINIR,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Idari Sınır,https://tucbs-public-api.csb.gov.tr/trk_cbs_idari_sinir_wms
+IDARI SINIR 2017,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Idari Sınır,https://gis-prod-api.csb.gov.tr/trk_idari_sinir_2017_wms
+IDARI SINIR (Koy Mahalle),T.C. Çevre ve Şehircilik Bakanlığı,WMS,Idari Sınır,https://tucbs-public-api.csb.gov.tr/trk_cbs_koy_mah_sinir_wms
+IDARI SINIR (HGM),Harita Genel Müdürlüğü,WMS,Idari Sınır,https://tucbs-public-api.csb.gov.tr/trk_hgk_idari_sinir_wms
+COĞRAFİ YER ADLARI ,Harita Genel Müdürlüğü,WMS,Coğrafi Yer Adları,https://tucbs-public-api.csb.gov.tr/trk_cya_wms
+COGRAFI GRID,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Coğrafi Grid,https://tucbs-public-api.csb.gov.tr/trk_cografigrid_wms
+UTM GRID 25000,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Türkiye'deki 25000 ölçekteki grid sınırlarını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_utm_zone_wms
+UTM GRID 100000,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Türkiye'deki 100000 ölçekteki grid sınırlarını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_utm_grid_100_wms
+UTM ZONE,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Türkiye'deki UTM Zone sınırlarını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_utm_zone_wms
+PAFTA LEJAND,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Pafta Lejand,https://tucbs-public-api.csb.gov.tr/pafta_lejand_wms
+Antalya-Burdur-Isparta Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Antalya-Burdur-Isparta Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_abi_wms
+Antalya-Burdur-Isparta Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMTS,Bu servis Antalya-Burdur-Isparta Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_abi_wmts
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Ardahan-Kars-Iğdır-Ağrı Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_akia_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Amasya Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_amasya_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Aydın-Muğla-Denizli Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_amd_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Adıyaman-Şanlıurfa-Diyarbakır  Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_asd_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Bartın 25000  Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_bartin25_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Bilecik Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_bilecik_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Bolu Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_bolu_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Balıkesir-Çanakkale Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_cb_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Erzurum-Erzincan-Bayburt Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_eeb_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Tekirdağ-Kırklareli-Edirne (Trakya Alt bölgesi Ergene Havzası) Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_ergene_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis İzmir-Manisa Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_im_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Kilis Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_kilis_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Kırıkkale Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_kirikkale_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Konya-Karaman Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_kk_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Kırşehir-Nevşehir-Niğde-Aksaray Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_knna_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Mersin-Adana Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_ma_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Mardin-Batman-Siirt-Şırnak-Hakkari Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_mbssh_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Muş-Bitlis-Van Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_mbv_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Malatya-Elazığ-Bingöl-Tunceli Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_mebt_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Osmaniye Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_osmaniye_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Ordu-Trabzon-Rize-Giresun-Gümüşhane-Artvin Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_otrgga_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Samsun-Çorum-Tokat Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_sct_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Sinop Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_sinop_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Yozgat-Sivas-Kayseri Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_ysk_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Yalova Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_yalova_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Sinop-Kastamonu-Çankırı Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_skc_wms
+Çevre Düzeni Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Zonguldak-Bartın-Karabük Çevre Düzeni Planını içermektedir,https://tucbs-public-api.csb.gov.tr/csb_cdp_zbk_wms
+Bütünleşik Kıyı Alanı Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis ANTALYA Bütünleşik Kıyı Alanı Planını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_butkiyipln_antalya_wms
+Bütünleşik Kıyı Alanı Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,BBu servis İSKENDERUN Bütünleşik Kıyı Alanı Planını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_butkiyipln_iskenderun_wms
+Bütünleşik Kıyı Alanı Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis İZMİT Bütünleşik Kıyı Alanı Planını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_butkiyipln_izmit_wms
+Bütünleşik Kıyı Alanı Planı,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis SAMSUN Bütünleşik Kıyı Alanı Planını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_butkiyipln_samsun_wms
+UTM ZONE,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Türkiye'deki Zone sınırlarını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_utm_zone_wms
+TUIK ISTATISTIK GRID,T.C. Çevre ve Şehircilik Bakanlığı,WMS,İstatiksel Gridleri içermektedir.,https://tucbs-public-api.csb.gov.tr/trk_tuik_grid_wms
+HAVA KALİTESİ GRİDLERİ,T.C. Çevre ve Şehircilik Bakanlığı,WMS,İstatiksel Hava Kalitesi Gridlerini içermektedir.,https://tucbs-public-api.csb.gov.tr/trk_havakalitesi_grid_wms
+HAVA İZLEME İSTASYONLARI,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Hava İzleme İstasyonları,https://tucbs-test-api.csb.gov.tr/trk_havaizlemeistasyonlari_wms
+EMEP GRID 1K,T.C. Çevre ve Şehircilik Bakanlığı,WMS,İstatiksel EMEP Gridlerini içermektedir.,https://tucbs-public-api.csb.gov.tr/trk_emepgrid_1k_wms
+EMEP GRID 50K,T.C. Çevre ve Şehircilik Bakanlığı,WMS,İstatiksel EMEP Gridlerini içermektedir.,https://tucbs-public-api.csb.gov.tr/trk_emepgrid_50k_wms
+COGRAFI GRID,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Coğrafi Grid,https://tucbs-public-api.csb.gov.tr/trk_cografigrid_wms
+UTM GRID 25000,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Türkiye'deki 25000 ölçekteki grid sınırlarını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_utm_zone_wms
+UTM GRID 100000,T.C. Çevre ve Şehircilik Bakanlığı,WMS,Bu servis Türkiye'deki 100000 ölçekteki grid sınırlarını içermektedir,https://tucbs-public-api.csb.gov.tr/trk_utm_grid_100_wms
+TUIK NUFUS 2013,Türkiye İstatistik Kurumu,WMTS,TUIK tarafından olusturulmus 2013 nufus yogunluk gridi,https://tucbs-public-api.csb.gov.tr/trk_tuik_nufus_2013_wmts
+TUIK NUFUS 2014,Türkiye İstatistik Kurumu,WMTS,TUIK tarafından olusturulmus 2014 nufus yogunluk gridi,https://tucbs-public-api.csb.gov.tr/trk_tuik_nufus_2014_wmts
+TUIK NUFUS 2013,Türkiye İstatistik Kurumu,WMS,TUIK tarafından olusturulmus 2013 nufus yogunluk gridi,https://tucbs-public-api.csb.gov.tr/trk_tuik_nufus_2013_wms
+TUIK NUFUS 2014,Türkiye İstatistik Kurumu,WMS,TUIK tarafından olusturulmus 2014 nufus yogunluk gridi,https://tucbs-public-api.csb.gov.tr/trk_tuik_nufus_2014_wms
+TUIK NUFUS 2015,Türkiye İstatistik Kurumu,WMS,TUIK tarafından olusturulmus 2014 nufus yogunluk gridi,https://tucbs-public-api.csb.gov.tr/trk_tuik_nufus_2015_wms
+CORINE 1990,T.C. Orman ve Su İşleri Bakanlığı,WMS,CORINE 1990,https://tucbs-public-api.csb.gov.tr/trk_corine_1990_wms
+CORINE 2000,T.C. Orman ve Su İşleri Bakanlığı,WMS,CORINE 2000,https://tucbs-public-api.csb.gov.tr/trk_corine_2000_wms
+CORINE 2006,T.C. Orman ve Su İşleri Bakanlığı,WMS,CORINE 2006,https://tucbs-public-api.csb.gov.tr/trk_corine_2006_wms
+CORINE 2012,T.C. Orman ve Su İşleri Bakanlığı,WMS,CORINE 2012,https://tucbs-public-api.csb.gov.tr/trk_corine_2012_wms
+ORGANİZE SANAYİ BÖLGELERİ,"T.C. Bilim, Sanayi Ve Teknoloji Bakanlığı",WMS,"Bilim, Sanayi Ve Teknoloji BakanlığI tarafından üretilen güncel ""Organize Sanayi Bölgeleri"" verisidir.",https://gis-prod-api.csb.gov.tr/trk_osb_wms
+YER HAREKET İSTASYONLARI,T.C. BAŞBAKANLIK AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI DEPREM DAİRESİ BAŞKANLIĞI,WMS,YER HAREKET İSTASYONLARI,https://tucbs-public-api.csb.gov.tr/trk_afad_yerhareketistaysonlari_wms
+ULAŞIM,T.C. Çevre ve Şehircilik Bakanlığı,WMS,ULAŞIM,https://tucbs-public-api.csb.gov.tr/trk_cbs_ulasim_wms
+SRTM,T.C. Çevre ve Şehircilik Bakanlığı,WMS,SRTM,https://tucbs-public-api.csb.gov.tr/trk_srtm_wms
+SRTM,T.C. Çevre ve Şehircilik Bakanlığı,WMTS,SRTM,https://tucbs-public-api.csb.gov.tr/trk_srtm_wmts
+RASAT,TÜBİTAK UZAY,WMS,Uydu Görüntüsü,https://tucbs-public-api.csb.gov.tr/trk_rasat_wms
+AVRUPA URBAN ATLAS,AVRUPA ÇEVRE AJANSI,WMS,AVRUPA Şehir Atlası Servisi,https://tucbs-public-api.csb.gov.tr/avrupa_urbanatlas_wms
+UŞAK GERÇEK ORTOFOTO,T.C. Çevre ve Şehircilik Bakanlığı,WMS,UŞAK Gerçek Ortofoto 50 cm,https://gis-prod-api.csb.gov.tr/64_torto_cbs50_tm30_2014_wms\n  
+HGK ATLAS,Harita Genel Müdürlüğü,WMS,Harita Genel Müdürlüğü,https://tucbs-public-api.csb.gov.tr/trk_hgk_atlas_wms\n  
