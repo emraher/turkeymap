@@ -23,6 +23,7 @@ You can install `turkeymap` from github with:
 Shapefile Sources for Turkey
 ============================
 
+-   [Leventcan](https://github.com/Leventcan/spatial_files)
 -   [giscoR](https://github.com/dieghernan/giscoR)
 -   [European Environment
     Agency](https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/turkey-shapefile)
