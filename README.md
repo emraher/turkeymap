@@ -25,7 +25,7 @@ Shapefile Sources for Turkey
 
 -   [Leventcan](https://github.com/Leventcan/spatial_files)
 -   [HGM](https://www.harita.gov.tr/kategori-14-ucretsiz-urunler.html)
--   [Tarim ve Orman Bak. - GEODATA](http://geodata.ormansu.gov.tr/)
+-   [Tarim ve Orman Bak.](http://veri.tarimorman.gov.tr/)
 -   [OGM](https://cbs.ogm.gov.tr/vatandas/)
 -   [MTA](https://www.mta.gov.tr/v3.0/)
 -   [Coğrafi Veri Servis
