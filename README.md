@@ -24,6 +24,14 @@ Shapefile Sources for Turkey
 ============================
 
 -   [Leventcan](https://github.com/Leventcan/spatial_files)
+-   [HGM](https://www.harita.gov.tr/kategori-14-ucretsiz-urunler.html)
+-   [Tarim ve Orman Bak. - GEODATA](http://geodata.ormansu.gov.tr/)
+-   [OGM](https://cbs.ogm.gov.tr/vatandas/)
+-   [MTA](https://www.mta.gov.tr/v3.0/)
+-   [Coğrafi Veri Servis
+    Havuzu](https://cbs.csb.gov.tr/cografi-veri-servis-havuzu-i-5438)
+-   **[MÜLKİ İDARE BİRİMLERİ - Not Shapefile
+    Source](https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx)**
 -   [giscoR](https://github.com/dieghernan/giscoR)
 -   [European Environment
     Agency](https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/turkey-shapefile)
@@ -32,13 +40,9 @@ Shapefile Sources for Turkey
 -   [Free GIS Data](http://freegisdata.org/place/224880/)
 -   [GEOFABRIK](http://download.geofabrik.de/europe/turkey.html)
 -   [GADM](https://gadm.org/download_country_v3.html)
--   [Tarim ve Orman Bak. - GEODATA](http://geodata.ormansu.gov.tr/)
 -   [GIS Data Repositories by Dr. Karen
     Payne](https://docs.google.com/spreadsheets/d/1utQRlrX3lJniBjWE3rNjLZeTRsbjH-zdjxNmXhhvO9Q/htmlview)
--   [Coğrafi Veri Servis
-    Havuzu](https://cbs.csb.gov.tr/cografi-veri-servis-havuzu-i-5438)
--   **[MÜLKİ İDARE BİRİMLERİ - Not Shapefile
-    Source](https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx)**
+
 
 GADM
 ====
