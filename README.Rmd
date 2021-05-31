@@ -47,32 +47,23 @@ tr_districts <- turkeymap::districts
 * [Coğrafi Veri Servis Havuzu](https://cbs.csb.gov.tr/cografi-veri-servis-havuzu-i-5438)
 * **[MÜLKİ İDARE BİRİMLERİ - Not  Shapefile Source](https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx)**
 
-# GADM
-## Problems with GADM data
-GADM data has some wrong information. Some province and district names are either wrong or missing Turkish characters. **This must be fixed.** The problems are caused by some recent changes. For example, Merkez district in Antalya was split into 5 different districts. GADM has not updated their files to reflect these changes.
+# HDX 
+HDX provides the most recent shapefiles for Turkey. You can download shapefiles for Administrative Boundaries from [this link](https://data.humdata.org/dataset/turkey-administrative-boundaries-levels-0-1-2).
 
-## GADM Download
-[`sptools`](https://github.com/epix-project/sptools) can download maps from GADM database. Install from GitHub using,
+You can import shp file into R using `sf` library.
 
-``` r
-devtools::install_github("epix-project/sptools")
+```{r}
+library(tidyverse)
+library(sf)
+dt <- st_read("./data-raw/hdx/tur_polbnda_adm2.shp")
+hdx_dt <- st_set_geometry(dt, NULL)
 ```
 
-To download maps for Turkey and to plot them run the following codes,
 
-```r
-tr <- sptools::gadm("Turkey", "sf", 0, save = FALSE, intlib = FALSE)
-tr_province <- sptools::gadm("Turkey", "sf", 1, save = FALSE, intlib = FALSE)
-tr_district <- sptools::gadm("Turkey", "sf", 2, save = FALSE, intlib = FALSE)
+# `tuik`
 
-# Plot maps
+[`tuik`](https://github.com/emraher/tuik) package also provides functions for mapping data. 
 
-plot(tr$geometry) # Turkey
-
-plot(tr_province$geometry) # Turkey - Provinces
-
-plot(tr_district$geometry) # Turkey - Districts
-```
 
 
 

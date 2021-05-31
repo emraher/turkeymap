@@ -1,8 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-turkeymap
-=========
+# turkeymap
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -10,18 +9,18 @@ turkeymap
 The goal of turkeymap is to provide province and district data for
 Turkey.
 
-Installation
-------------
+## Installation
 
 You can install `turkeymap` from github with:
 
-    devtools::install_github("emraher/turkeymap")
+``` r
+devtools::install_github("emraher/turkeymap")
 
-    tr_provinces <- turkeymap::provinces
-    tr_districts <- turkeymap::districts
+tr_provinces <- turkeymap::provinces
+tr_districts <- turkeymap::districts
+```
 
-Shapefile Sources for Turkey
-============================
+# Shapefile Sources for Turkey
 
 -   [giscoR](https://github.com/dieghernan/giscoR)
 -   [European Environment
@@ -39,42 +38,42 @@ Shapefile Sources for Turkey
 -   **[MÜLKİ İDARE BİRİMLERİ - Not Shapefile
     Source](https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx)**
 
-GADM
-====
+# HDX
 
-Problems with GADM data
------------------------
+HDX provides the most recent shapefiles for Turkey. You can download
+shapefiles for Administrative Boundaries from [this
+link](https://data.humdata.org/dataset/turkey-administrative-boundaries-levels-0-1-2).
 
-GADM data has some wrong information. Some province and district names
-are either wrong or missing Turkish characters. **This must be fixed.**
-The problems are caused by some recent changes. For example, Merkez
-district in Antalya was split into 5 different districts. GADM has not
-updated their files to reflect these changes.
+You can import shp file into R using `sf` library.
 
-GADM Download
--------------
+``` r
+library(tidyverse)
+#> ── Attaching packages ─────────────────────────────────────────────── tidyverse 1.3.0 ──
+#> ✓ ggplot2 3.3.2     ✓ purrr   0.3.4
+#> ✓ tibble  3.0.4     ✓ dplyr   1.0.2
+#> ✓ tidyr   1.1.2     ✓ stringr 1.4.0
+#> ✓ readr   1.4.0     ✓ forcats 0.5.0
+#> ── Conflicts ────────────────────────────────────────────────── tidyverse_conflicts() ──
+#> x dplyr::filter() masks stats::filter()
+#> x dplyr::lag()    masks stats::lag()
+library(sf)
+#> Linking to GEOS 3.8.1, GDAL 3.1.1, PROJ 6.3.1
+dt <- st_read("./data-raw/hdx/tur_polbnda_adm2.shp")
+#> Reading layer `tur_polbnda_adm2' from data source `/Users/emraher/Dropbox/gitRepos/SourcesOnGitHub/turkeymap/data-raw/hdx/tur_polbnda_adm2.shp' using driver `ESRI Shapefile'
+#> Simple feature collection with 973 features and 12 fields
+#> geometry type:  MULTIPOLYGON
+#> dimension:      XY
+#> bbox:           xmin: 25.67 ymin: 35.81 xmax: 44.82 ymax: 42.1
+#> geographic CRS: WGS 84
+hdx_dt <- st_set_geometry(dt, NULL)
+```
 
-[`sptools`](https://github.com/epix-project/sptools) can download maps
-from GADM database. Install from GitHub using,
+# `tuik`
 
-    devtools::install_github("epix-project/sptools")
+[`tuik`](https://github.com/emraher/tuik) package also provides
+functions for mapping data.
 
-To download maps for Turkey and to plot them run the following codes,
-
-    tr <- sptools::gadm("Turkey", "sf", 0, save = FALSE, intlib = FALSE)
-    tr_province <- sptools::gadm("Turkey", "sf", 1, save = FALSE, intlib = FALSE)
-    tr_district <- sptools::gadm("Turkey", "sf", 2, save = FALSE, intlib = FALSE)
-
-    # Plot maps
-
-    plot(tr$geometry) # Turkey
-
-    plot(tr_province$geometry) # Turkey - Provinces
-
-    plot(tr_district$geometry) # Turkey - Districts
-
-Amendments
-==========
+# Amendments
 
 ### 1990s
 
