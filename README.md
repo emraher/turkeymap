@@ -42,7 +42,9 @@ tr_districts <- turkeymap::districts
 -   [GIS Data Repositories by Dr. Karen
     Payne](https://docs.google.com/spreadsheets/d/1utQRlrX3lJniBjWE3rNjLZeTRsbjH-zdjxNmXhhvO9Q/htmlview)
 
-
+# Ottoman Empire
+-    [Earthworks](https://earthworks.stanford.edu/)
+-    
 # HDX
 
 HDX provides the most recent shapefiles for Turkey. You can download
