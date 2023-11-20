@@ -44,7 +44,8 @@ tr_districts <- turkeymap::districts
 
 # Ottoman Empire
 -    [Earthworks](https://earthworks.stanford.edu/)
--    
+-    [Digital Ottoman Studies](https://www.digitalottomanstudies.com/gis?lang=tr)
+
 # HDX
 
 HDX provides the most recent shapefiles for Turkey. You can download
